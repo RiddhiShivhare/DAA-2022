@@ -12,3 +12,4 @@ int main()
       cin>>arr[i];
     cin>>key;
   }
+ 
