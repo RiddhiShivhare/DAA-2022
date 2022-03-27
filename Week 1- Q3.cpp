@@ -1,6 +1,4 @@
 #include<iostream>
-#include<cmath>
-
 using namespace std;
 int jump_Search(int a[], int n, int item) {
    int i = 0;
@@ -8,7 +6,7 @@ int jump_Search(int a[], int n, int item) {
 
    while(a[m] <= item && m < n) { 
       i = m;  
-      m += sqrt(n);
+      m += 2;
       if(m > n - 1)  // if m exceeds the array size
          return -1; 
    }
